@@ -1,6 +1,7 @@
 # SentimentAnalysis
 
-These files track my fun learning of basic sentiment analysis techniques using 3 datasets of reviews
+These files track my fun learning of basic sentiment analysis techniques using 3 datasets of review. The goal here is to be able to determine wether a specific review is positive or negative. This is currently on going for me. I've listed the the bototm of this read me the nest steps I will be looking at. 
+
 1. Yelp
 2. Amazon
 3. IMDB
