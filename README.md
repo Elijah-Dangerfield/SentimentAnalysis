@@ -25,4 +25,7 @@ This file uses the same Bag of Words approach to creating feature vectors but te
 ##### IMDB: 72%
 
 
-##### Future Work: using Word2Vec to embed words, using a CNN to build the model, trying out Google's [BERT](https://github.com/google-research/bert) if possible
+## Future Work
+using Word2Vec to embed words
+using a CNN to build the model
+trying out Google's [BERT](https://github.com/google-research/bert) if possible
