@@ -13,7 +13,7 @@ a word's value comes from it index in a dictionary. I was able to get 84% accura
 simple Neural Network
 
 ### baseline_bow_logistic_regression
-This file serves as my baseline model using a Bag of Words approach to embed the reviews as well as a simple Logicstical Reggression model. Training was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
+This file serves as my baseline model using a Bag of Words approach to vectorize the reviews as well as a simple Logicstical Reggression model. Training was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
 ##### Yelp: 94%
 ##### Amazon: 74%
 ##### IMDB: 66%
@@ -22,6 +22,12 @@ This file serves as my baseline model using a Bag of Words approach to embed the
 This file uses the same Bag of Words approach to creating feature vectors but tests wether or not a simlple neural network will perform better. Training again was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
 ##### Yelp: 95%
 ##### Amazon: 73%
+##### IMDB: 72%
+
+### word_embed
+This file uses the built in Keras embedding layer to create more meaningful word vectors. Still uses a simple NN. Training again was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
+##### Yelp: 96%
+##### Amazon: 76%
 ##### IMDB: 72%
 
 
