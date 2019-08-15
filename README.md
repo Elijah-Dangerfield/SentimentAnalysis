@@ -13,8 +13,8 @@ simple Neural Network
 
 ### baseline_bow
 This file serves as my baseline model using a Bag of Words approach to embed the reviews as well as a simple Logicstical Reggression model. The accuracy after training only on 75% of the Yelp reviews is as follows:
-Yelp: 94%
-Amazon: 74%
-IMDB: 66%
+##### Yelp: 94%
+##### Amazon: 74%
+##### IMDB: 66%
 
 ### Future Work: using Word2Vec to embed words, using a CNN to build the model, trying out Google's [BERT](https://github.com/google-research/bert) if possible
