@@ -30,8 +30,15 @@ This file uses the built in Keras embedding layer to create more meaningful word
 ##### Amazon: 76%
 ##### IMDB: 72%
 
+### nn_pretrained_embeddings
+This file uses GloVe's pretrained word embeddings. Still uses a simple NN. Training again was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
+##### Yelp: 94%
+##### Amazon: 72%
+##### IMDB: 71%
+
 
 ## Future Work
 ##### using Word2Vec to embed words
+#### tuning hyperperameters in models
 ##### using a CNN to build the model
 ##### trying out Google's [BERT](https://github.com/google-research/bert) if possible
