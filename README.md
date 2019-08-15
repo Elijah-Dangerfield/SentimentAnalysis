@@ -11,10 +11,17 @@ This file was really a warm up to the topic. It uses the IMDB data set that come
 a word's value comes from it index in a dictionary. I was able to get 84% accuracy here on a test set of 25k reviews using a 
 simple Neural Network
 
-### baseline_bow
-This file serves as my baseline model using a Bag of Words approach to embed the reviews as well as a simple Logicstical Reggression model. The accuracy after training only on 75% of the Yelp reviews is as follows:
+### baseline_bow_logistic_regression
+This file serves as my baseline model using a Bag of Words approach to embed the reviews as well as a simple Logicstical Reggression model. Training was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
 ##### Yelp: 94%
 ##### Amazon: 74%
 ##### IMDB: 66%
 
-### Future Work: using Word2Vec to embed words, using a CNN to build the model, trying out Google's [BERT](https://github.com/google-research/bert) if possible
+### nn_bow
+This file uses the same Bag of Words approach to creating feature vectors but tests wether or not a simlple neural network will perform better. Training again was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
+##### Yelp: 95%
+##### Amazon: 73%
+##### IMDB: 72%
+
+
+##### Future Work: using Word2Vec to embed words, using a CNN to build the model, trying out Google's [BERT](https://github.com/google-research/bert) if possible
