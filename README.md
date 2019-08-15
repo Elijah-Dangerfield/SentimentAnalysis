@@ -43,7 +43,7 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 ##### IMDB: 72%
 
 ## Results so far
-##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with waht seems to be a natural 80% cap given our dataset. 
+##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with what seems to be a natural 80% cap given our dataset. 
 
 
 ## Future Work
