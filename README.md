@@ -1,9 +1,9 @@
 # SentimentAnalysis
 
 These files track my fun learning of basic sentiment analysis techniques using 3 datasets of reviews
-1.) Yelp
-2.) Amazon
-3.) IMDB
+1. Yelp
+2. Amazon
+3. IMDB
 
 ## Files
 ### text_classification_IMDB_reviews_BOW
