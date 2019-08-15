@@ -26,6 +26,6 @@ This file uses the same Bag of Words approach to creating feature vectors but te
 
 
 ## Future Work
-using Word2Vec to embed words
-using a CNN to build the model
-trying out Google's [BERT](https://github.com/google-research/bert) if possible
+##### using Word2Vec to embed words
+##### using a CNN to build the model
+##### trying out Google's [BERT](https://github.com/google-research/bert) if possible
