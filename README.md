@@ -48,6 +48,6 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 
 ## Future Work
 ##### using Word2Vec to embed words
-#### tuning hyperperameters in models
-#### try out differing test, train folds
+##### tuning hyperperameters in models
+##### try out differing test, train folds
 ##### trying out Google's [BERT](https://github.com/google-research/bert) if possible
