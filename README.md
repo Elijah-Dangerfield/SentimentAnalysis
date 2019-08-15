@@ -36,9 +36,18 @@ This file uses GloVe's pretrained word embeddings. Still uses a simple NN. Train
 ##### Amazon: 72%
 ##### IMDB: 71%
 
+### cnn_pretrained_embeddings
+This file uses GloVe's pretrained word embeddings. This time however we use a Convolutional Neural Net. Training again was only performed on 75% of the yelp reviews. These are the accuracy results for the entire dataset: 
+##### Yelp: 95%
+##### Amazon: 73%
+##### IMDB: 72%
+
+## Results so far
+##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with waht seems to be a natural 80% cap given our dataset. 
+
 
 ## Future Work
 ##### using Word2Vec to embed words
 #### tuning hyperperameters in models
-##### using a CNN to build the model
+#### try out differing test, train folds
 ##### trying out Google's [BERT](https://github.com/google-research/bert) if possible
