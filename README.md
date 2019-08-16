@@ -42,8 +42,21 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 ##### Amazon: 73%
 ##### IMDB: 72%
 
+### cnn_splits
+This files uses Scikit leans Random search to explore differing hypter peramters for the CNN model. I found that the best parameters are as follows: 
+#### Best Accuracy : 0.8160  Test Accuracy : 0.8120
+##### {'vocab_size': 5000, 'num_filters': 32, 'maxlen': 100, 'kernel_size': 3, 'embedding_dim': 100}
+
+### cnn_full_split
+This files uses the parameters found in cnn_splits to train a model using the combination of the 3 data sets with a 75/25 taining test split. I also added a Dropout layer considering i've been working with a small dataset. Not sure that helped too much considering these results:
+
+##### Training Accuracy: 100%
+##### Testing Accuracy: 83%
+
 ## Results so far
-##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with what seems to be a natural 80% cap given our dataset. 
+##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with what seems to be a natural 80% cap given our dataset.
+
+
 
 
 ## Future Work
