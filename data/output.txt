@@ -1,0 +1,5 @@
+Running imdb data set
+Best Accuracy : 0.8160
+{'vocab_size': 5000, 'num_filters': 32, 'maxlen': 100, 'kernel_size': 3, 'embedding_dim': 100}
+Test Accuracy : 0.8120
+
