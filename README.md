@@ -31,7 +31,7 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 ##### Yelp: 95% ,Amazon: 73%, IMDB: 72%
 
 ### cnn_splits
-This files uses Scikit leans Random search to explore differing hypter peramters for the CNN model. I found that the best parameters are as follows: 
+This files uses Scikit leans Random search to explore differing hyperparameters for the CNN model. I found that the best parameters are as follows: 
 #### Best Accuracy : 0.8160  Test Accuracy : 0.8120
 ##### {'vocab_size': 5000, 'num_filters': 32, 'maxlen': 100, 'kernel_size': 3, 'embedding_dim': 100}
 
