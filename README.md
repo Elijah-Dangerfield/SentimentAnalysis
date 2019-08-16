@@ -2,9 +2,9 @@
 
 These files track my fun learning of basic sentiment analysis techniques using 3 datasets of review. The goal here is to be able to determine wether a specific review is positive or negative. This is currently on-going for me. I've listed next steps for me at the bottom of this readme.
 #### Review Data:
-1. Yelp
-2. Amazon
-3. IMDB
+1. Yelp 1000 reviews
+2. Amazon 1000 reviews
+3. IMDB 748 reviews
 
 ## Files
 ### text_classification_IMDB_reviews_BOW
@@ -48,6 +48,7 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 
 ## Future Work
 ##### using Word2Vec to embed words
+##### finding and using a larger dataset
 ##### tuning hyperperameters in models
 ##### try out differing test, train folds
 ##### trying out Google's [BERT](https://github.com/google-research/bert) if possible
