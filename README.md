@@ -6,6 +6,10 @@ These files track my fun learning of basic sentiment analysis techniques using 3
 2. Amazon 1000 reviews
 3. IMDB 748 reviews
 
+## Update:
+After learning about Word2Vec in order to continue work on this project I wrote a Medium Article to hopefully help others.
+Here is the link: [SuperDopeArticleYouShouldTotallyRead](https://medium.com/@elijahdangerfield111/word2vec-whats-going-on-fc9623f47c7b)
+
 ## Files
 ### Util.py
 This file just contains methods I found myself needing to use on mutliple occasions. I call these rather than re-write them.
