@@ -44,8 +44,13 @@ This files uses the parameters found in cnn_splits to train a model using the co
 
 ##### Training Accuracy: 100% , Testing Accuracy: 83%
 
+### test_final_cnn
+This files uses the parameters found in cnn_splits to train a model using the IMDB review dataset of 25k reviews. A 75/25 training test split gave these results:
+
+##### Training Accuracy: 99% . Testing Accuracy:  88%
+
 ## Results so far
-##### Using the best performing randomly searched hyperparameters, GloVe's word embeddings, keras embedding feature and a Convolutional Neural Net: 83% accuracy on 25% of the full data set (687 reviews). I would like to think with more data and other methods we could obtain better results.  
+##### Using the best performing randomly searched hyperparameters, GloVe's word embeddings, keras embedding feature and a Convolutional Neural Net: 83% accuracy on 25% of the combined smaller data sets (687 reviews) and 88% accuracy on 25% of the IMDB data set. I would like to think with more data and other methods we could obtain better results.  
 
 
 
