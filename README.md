@@ -1,10 +1,14 @@
 # SentimentAnalysis
 
-These files track my fun learning of basic sentiment analysis techniques using 3 datasets of review. The goal here is to be able to determine wether a specific review is positive or negative. This is currently on-going for me. I've listed next steps for me at the bottom of this readme.
+These files track my fun learning of basic sentiment analysis techniques using 3 datasets of reviews. The goal here is to be able to determine wether a specific review is positive or negative. This is currently on-going for me. I've listed next steps for myself at the bottom of this readme.
 #### Review Data:
 1. Yelp 1000 reviews
 2. Amazon 1000 reviews
 3. IMDB 748 reviews
+
+## Update:
+After learning about Word2Vec in order to continue work on this project I wrote a Medium Article to hopefully help others.
+Here is the link: [SuperDopeArticleYouShouldTotallyRead](https://medium.com/@elijahdangerfield111/word2vec-whats-going-on-fc9623f47c7b)
 
 ## Files
 ### Util.py
@@ -31,7 +35,7 @@ This file uses GloVe's pretrained word embeddings. This time however we use a Co
 ##### Yelp: 95% ,Amazon: 73%, IMDB: 72%
 
 ### cnn_splits
-This files uses Scikit leans Random search to explore differing hypter peramters for the CNN model. I found that the best parameters are as follows: 
+This files uses Scikit leans Random search to explore differing hyperparameters for the CNN model. I found that the best parameters are as follows: 
 #### Best Accuracy : 0.8160  Test Accuracy : 0.8120
 ##### {'vocab_size': 5000, 'num_filters': 32, 'maxlen': 100, 'kernel_size': 3, 'embedding_dim': 100}
 
@@ -41,13 +45,13 @@ This files uses the parameters found in cnn_splits to train a model using the co
 ##### Training Accuracy: 100% , Testing Accuracy: 83%
 
 ## Results so far
-##### It is very interesting but at least for this dataset, simply using Keras's built in word embedding performs best. However, it is not much better than the other models with what seems to be a natural 80% cap given our dataset.
+##### Using the best performing randomly searched hyperparameters, GloVe's word embeddings, keras embedding feature and a Convolutional Neural Net: 83% accuracy on 25% of the full data set (687 reviews). I would like to think with more data and other methods we could obtain better results.  
 
 
 
 ## Future Work
 ##### using Word2Vec to embed words
-##### looking at different networks such as LSTM
+##### looking at different networks such as LSTM, R-CNN 
 ##### finding and using a larger dataset
 ##### tuning hyperperameters in models
 ##### try out differing test, train folds
